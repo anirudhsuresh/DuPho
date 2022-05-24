@@ -1,0 +1,24 @@
+{
+  "name": "ws_for_vcdrom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Anirudh",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@drom/eslint-config": "^0.10.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.16.0",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.6.0"
+  }
+}
